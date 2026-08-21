@@ -1,0 +1,129 @@
+:root {
+    /* gray */
+    --W: #ffffff;
+    --B: #000000;
+    --G100: #f3f3f4;
+    --G200: #e7e7e8;
+    --G300: #cfcfd1;
+    --G400: #b6b8ba;
+    --G500: #9ea0a3;
+    --G600: #868b8c;
+    --G700: #6b6d70;
+    --G800: #505254;
+    --G900: #36363b;
+    --G1000: #1b1b1c;
+
+    /* fonts */
+  --playfair: 'Playfair Display', serif;
+
+  /* layout */
+  /* mobile */
+  --container-mobile-min: 328px;
+  --container-mobile-max: 396px;
+
+  /* tablet */
+  --container-tablet-min: 469px;
+  --container-tablet-max: 736px;
+
+  /* desktop */
+  --container-desktop-min: 936px;
+  --container-desktop-max: 1224px;
+
+  /* container */
+  --container-mobile: calc(100% - 16px);
+  --container-tablet: calc(100% - 32px);
+  --container-desktop: calc(100% - 48px);
+
+  /* spacing */
+  --spacing-2: 2px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+
+  /* border radius */
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+
+  /* font size */
+  --font-size-10: 10px;
+  --font-size-11: 11px;
+  --font-size-12: 12px;
+  --font-size-13: 13px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-30: 30px;
+  --font-size-32: 32px;
+
+  /* box shadow */
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.1);
+  --shadow-xl: 0 20px 25px rgba(0, 0, 0, 0.1);
+  --shadow-1: 0px 1px 3px rgba(231, 231, 232);
+  --shadow-2: 0px 2px 4px rgba(231, 231, 232);
+
+  /* transitions */
+  --transition-fast: 150ms;
+  --transition-base: 250ms;
+  --transition-slow: 350ms;
+  --transition-ease: cubic-bezier(0.4, 0, 0.2, 1);
+
+  /* z-index */
+  --z-dropdown: 1000;
+  --z-sticky: 1020;
+  --z-fixed: 1030;
+  --z-modal-backdrop: 1040;
+  --z-modal: 1050;
+  --z-tooltip: 1070;
+
+  /* breakpoints */
+  --breakpoint-mobile: 375px;
+  --breakpoint-tablet: 768px;
+  --breakpoint-desktop: 1024px;
+
+  /* opacity */
+  --opacity-disabled: 0.4;
+  --opacity-hover: 0.8;
+}
+
+.container {
+    max-width: var(--container-tablet-max);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.header_container {
+    text-align: center;
+}
+
+.header_title {
+    font-size: 48px;
+    font-weight: 400;
+    color: var(--color-text);
+    margin-bottom: var(--spacing-16);
+}
+
+.header_subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-text-light);
+    margin-bottom: 40px;
+}
+
