@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BQ8NJ7SQC8"></script>
@@ -13,18 +13,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="favicon.png">
-    <title>Ronald López - Desarrollador de Software</title>
+    <title>Ronald López - Software Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reboot.css?v=2">
-    <link rel="stylesheet" href="css/index.css?v=2">
+    <link rel="stylesheet" href="css/index.css?v=3">
 </head>
 <body>
+    <button type="button" id="lang-toggle" class="lang_toggle" aria-label="Cambiar a español">Español</button>
     <main class="container">
       <div class="header_container">
-        <h1 class="header_title">¡Hola! Me llamo <span>Ronald</span></h1>
-          <p class="header_subtitle">Soy un desarrollador de software con más de 10 años de experiencia construyendo productos digitales de alto tráfico. Me enfoco en transformar requerimientos de negocio en soluciones técnicas sólidas, cuidando la calidad del código, las métricas y la mejora continua.</p>
+        <h1 class="header_title" data-es="¡Hola! Me llamo <span>Ronald</span>">Hi! My name is <span>Ronald</span></h1>
+          <p class="header_subtitle" data-es="Soy un desarrollador de software con más de 10 años de experiencia construyendo productos digitales de alto tráfico. Me enfoco en transformar requerimientos de negocio en soluciones técnicas sólidas, cuidando la calidad del código, las métricas y la mejora continua.">I'm a software developer with over 10 years of experience building high-traffic digital products. I focus on turning business requirements into solid technical solutions, caring about code quality, metrics, and continuous improvement.</p>
           <div class="header_links">
               <a href="https://github.com/rlopezse" target="_blank" rel="noopener noreferrer">GitHub</a>
               <a href="https://www.linkedin.com/in/rlopezse/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
@@ -32,58 +33,59 @@
           </div>
       </div>
       <div class="about_container">
-          <h2 class="about_title">Experiencia</h2>
+          <h2 class="about_title" data-es="Experiencia">Experience</h2>
           <ul class="timeline">
               <li class="timeline_item">
-                  <span class="timeline_date">jul. 2026 - actualidad</span>
-                  <h3 class="timeline_role">Consultor - Tigo / Millicom</h3>
+                  <span class="timeline_date" data-es="jul. 2026 - actualidad">Jul 2026 - present</span>
+                  <h3 class="timeline_role" data-es="Consultor - Tigo Chile / Millicom">Consultant - Tigo Chile / Millicom</h3>
               </li>
               <li class="timeline_item">
-                  <span class="timeline_date">nov. 2018 - jul. 2026</span>
-                  <h3 class="timeline_role">Líder Técnico - Telefónica</h3>
-                  <p class="timeline_subtitle">Me integré como líder técnico a una célula de desarrollo de 3 personas trabajando sobre la App Mi Movistar (React Native). Coordiné al equipo, prioricé el backlog técnico y actué como puente entre las áreas de negocio y el equipo de desarrollo, asegurando la entrega de soluciones alineadas a los objetivos del producto.</p>
+                  <span class="timeline_date" data-es="nov. 2018 - jul. 2026">Nov 2018 - Jul 2026</span>
+                  <h3 class="timeline_role" data-es="Líder Técnico - Telefónica Chile">Technical Lead - Telefónica Chile</h3>
+                  <p class="timeline_subtitle" data-es="Me integré como líder técnico a una célula de desarrollo de 3 personas trabajando sobre la App Mi Movistar (React Native). Coordiné al equipo, prioricé el backlog técnico y actué como puente entre las áreas de negocio y el equipo de desarrollo, asegurando la entrega de soluciones alineadas a los objetivos del producto.">I joined as technical lead on a 3-person development team working on the Mi Movistar App (React Native). I coordinated the team, prioritized the technical backlog, and acted as a bridge between business and development, ensuring solutions aligned with product goals.</p>
               </li>
               <li class="timeline_item">
-                  <span class="timeline_date">may. 2015 - may. 2017</span>
-                  <h3 class="timeline_role">Desarrollador de Software - Agencia Radical</h3>
+                  <span class="timeline_date" data-es="may. 2015 - may. 2017">May 2015 - May 2017</span>
+                  <h3 class="timeline_role" data-es="Desarrollador de Software - Agencia Radical">Software Developer - Agencia Radical</h3>
               </li>
           </ul>
       </div>
       <div class="projects_container">
-          <h2 class="projects_title">Proyectos</h2>
+          <h2 class="projects_title" data-es="Proyectos">Projects</h2>
           <div class="projects_grid">
               <article class="project_card">
                   <div class="project_image">
                       <img src="images/hook-tabs/image1.png" alt="hook-tabs">
                   </div>
-                  <p class="project_description">Hook Tabs es un proyecto personal que creé porque me cansé de tener que recorrer pestaña por pestaña para encontrar una en particular, o depender del mouse para hacerlo.</p>
+                  <p class="project_description" data-es="Hook Tabs es un proyecto personal que creé porque me cansé de tener que recorrer pestaña por pestaña para encontrar una en particular, o depender del mouse para hacerlo.">Hook Tabs is a personal project I created because I got tired of scrolling through tabs one by one to find a specific one, or relying on the mouse to do it.</p>
                   <div class="project_links">
                       <a href="https://github.com/rlopezse/hook-tabs" target="_blank" rel="noopener noreferrer">GitHub</a>
-                      <a href="https://chromewebstore.google.com/detail/hook-tabs/fgjphkmaeoajpoadgdcconamlfapjobp?authuser=0&hl=en" target="_blank" rel="noopener noreferrer">Ver sitio</a>
+                      <a href="https://chromewebstore.google.com/detail/hook-tabs/fgjphkmaeoajpoadgdcconamlfapjobp?authuser=0&hl=en" target="_blank" rel="noopener noreferrer" data-es="Ver sitio">View site</a>
                   </div>
               </article>
               <article class="project_card">
                   <div class="project_image">
                     <img src="images/proxima/image1.png" alt="Próxima">
                   </div>
-                  <p class="project_description">Próxima es un blog personal que creé porque quería un espacio propio donde escribir, inspirado en el diseño minimalista de overreacted.io. Los posts los armo con ayuda de Claude Code: le paso una historia, me ayuda con el relato y yo termino de ajustarlo.</p>
+                  <p class="project_description" data-es="Próxima es un blog personal que creé porque quería un espacio propio donde escribir, inspirado en el diseño minimalista de overreacted.io. Los posts los armo con ayuda de Claude Code: le paso una historia, me ayuda con el relato y yo termino de ajustarlo.">Próxima is a personal blog I created because I wanted my own space to write, inspired by the minimalist design of overreacted.io. I put together the posts with help from Claude Code: I give it a story, it helps me with the narrative, and I finish adjusting it.</p>
                   <div class="project_links">
                       <a href="https://github.com/rlopezse/proxima" target="_blank" rel="noopener noreferrer">GitHub</a>
-                      <a href="https://proxima-project.com/" target="_blank" rel="noopener noreferrer">Ver sitio</a>
+                      <a href="https://proxima-project.com/" target="_blank" rel="noopener noreferrer" data-es="Ver sitio">View site</a>
                   </div>
               </article>
               <article class="project_card">
                   <div class="project_image">
                     <img src="images/pulsar/image1.png" alt="Pulsar">
                   </div>
-                  <p class="project_description">Pulsar es un proyecto personal que creé para explorar y refrescar conocimientos en React, TypeScript y CSS, armando un ecommerce Front-End desde cero.</p>
+                  <p class="project_description" data-es="Pulsar es un proyecto personal que creé para explorar y refrescar conocimientos en React, TypeScript y CSS, armando un ecommerce Front-End desde cero.">Pulsar is a personal project I created to explore and refresh my knowledge of React, TypeScript, and CSS, building an e-commerce front-end from scratch.</p>
                   <div class="project_links">
                       <a href="https://github.com/rlopezse/pulsar" target="_blank" rel="noopener noreferrer">GitHub</a>
-                      <a href="https://pulsar-project.com/" target="_blank" rel="noopener noreferrer">Ver sitio</a>
+                      <a href="https://pulsar-project.com/" target="_blank" rel="noopener noreferrer" data-es="Ver sitio">View site</a>
                   </div>
               </article>
           </div>
       </div>
     </main>
+    <script src="js/lang.js?v=3"></script>
 </body>
 </html>
