@@ -5,6 +5,7 @@
 
   var toggleBtn = document.getElementById('lang-toggle');
   var elements = document.querySelectorAll('[data-es]');
+  var hrefElements = document.querySelectorAll('[data-href-es]');
 
   function setLang(lang) {
     document.documentElement.lang = lang;
@@ -18,6 +19,17 @@
         el.innerHTML = el.dataset.es;
       } else if (el.dataset.en !== undefined) {
         el.innerHTML = el.dataset.en;
+      }
+    });
+
+    hrefElements.forEach(function (el) {
+      if (lang === 'es') {
+        if (el.dataset.hrefEn === undefined) {
+          el.dataset.hrefEn = el.getAttribute('href');
+        }
+        el.setAttribute('href', el.dataset.hrefEs);
+      } else if (el.dataset.hrefEn !== undefined) {
+        el.setAttribute('href', el.dataset.hrefEn);
       }
     });
 
